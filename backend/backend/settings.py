@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-b&m9&$flc-(+*2haqtqxpmoq+dcmj2b3qog$3v(olnmur6(!jb'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = []
 
@@ -126,8 +126,6 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-<<<<<<< HEAD
-CORS_ALLOWED_ORIGINS = ["https://newcloudfrontend.vercel.app",]
-=======
-CORS_ALLOWED_ORIGINS = ["http://localhost:3000",]
->>>>>>> c57f7499baff43dc854f992b6aac1acca28f1813
+CORS_ALLOWED_ORIGINS = [
+    'http://localhost:3000',
+]
