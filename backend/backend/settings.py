@@ -126,4 +126,8 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+<<<<<<< HEAD
 CORS_ALLOWED_ORIGINS = ["https://newcloudfrontend.vercel.app",]
+=======
+CORS_ALLOWED_ORIGINS = ["http://localhost:3000",]
+>>>>>>> c57f7499baff43dc854f992b6aac1acca28f1813
